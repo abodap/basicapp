@@ -56,8 +56,8 @@
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
-    <Exec Command="npm install" />
-    <Exec Command="gulp" />
+    <Exec Command="npm install" />   
+    <Exec Command="npm install gulp" />    
     <Exec Command="bower install" />
     <Exec Command="gulp clean" />
     <Exec Command="gulp min" />
