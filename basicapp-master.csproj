@@ -15,7 +15,8 @@
     <ApplicationIcon />
     <OutputTypeEx>exe</OutputTypeEx>
     <StartupObject />
-   <GenerateProgramFile>false</GenerateProgramFile>
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <UseIISExpress>true</UseIISExpress>
   </PropertyGroup>
 
   <ItemGroup>
